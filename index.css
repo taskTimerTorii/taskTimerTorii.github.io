@@ -1,0 +1,21 @@
+@import url("reset/reset.css");
+@import url("blocks/main/main.css");
+@import url("blocks/logo/logo.css");
+@import url("blocks/button-horizontal/button-horizontal.css");
+html {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+    width: calc(100vw - 64px);
+    text-align: center;
+    position: absolute;
+    display: block;
+    bottom: 32px;
+}
+.or {
+    line-height: 50px;
+    font-size: 2.2rem;
+    height: 80px;
+    width: 100%;
+}
