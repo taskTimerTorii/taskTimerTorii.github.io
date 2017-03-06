@@ -1,0 +1,11 @@
+.top-bar__cross {
+    height: 65px;
+    position: absolute;
+    left: 32px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.top-bar__cross_hidden {
+    opacity: 0;
+}

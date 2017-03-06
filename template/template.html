@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Template</title>
+    <link rel="stylesheet" href="../reset/reset.css">
+    <link rel="stylesheet" href="template.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+   
+    <!-- top-bar -->
+    <header class="top-bar template__top-bar">
+       <div class="flex-container">
+        <img class="top-bar__hamburger" src="../blocks/top-bar/__hamburger/hamburger.svg">
+        <img class="top-bar__cross top-bar__cross_hidden" src="../blocks/top-bar/__hamburger/cross.svg">
+        <h1 class="top-bar__title">
+        Template
+        </h1>
+        <input class="top-bar__search-bar top-bar__search-bar_hidden" type="text">
+        <img class="top-bar__search" src="../blocks/top-bar/__search/search.svg">
+       </div>
+    </header>
+    <!-- end top-bar -->
+    
+    <!-- main -->
+    <section class="main template__main">
+       
+        <!-- nav-bar -->
+        <nav class="template__nav-bar nav-bar nav-bar_off">
+
+            <section class="nav-bar__personal-details">
+
+                <img class="nav-bar__photo" src="../blocks/nav-bar/__photo/photo.png">
+
+                <p class="nav-bar__user-name">Tomasz Kowalski</p>
+                <p class="nav-bar__user-mail">tomasz.kowalski@gmail.com</p>
+                <p class="nav-bar__task-name">Zoptymalizować kod</p>
+                <p class="nav-bar__task-time">00:34:02</p>
+
+            </section>
+
+            <section class="nav-bar__app-parts">
+
+                <!-- Task Timer -->
+                <section class="nav-bar__app-part">
+                    <a href="#" class="nav-bar__app-part">
+                    <img class="nav-bar__app-part-icon" src="../blocks/nav-bar/__app-part-icon/task-timer.svg">
+                    <h3 class="nav-bar__app-part-name">Task Timer</h3>
+                    </a>
+                </section>
+
+                <!-- Projects -->
+                <section class="nav-bar__app-part">
+                    <a href="#" class="nav-bar__app-part">
+                    <img class="nav-bar__app-part-icon" src="../blocks/nav-bar/__app-part-icon/projects.svg">
+                    <h3 class="nav-bar__app-part-name">Projects</h3>
+                    </a>
+                </section>
+
+                <!-- Clients -->
+                <section class="nav-bar__app-part">
+                    <a href="#" class="nav-bar__app-part">
+                    <img class="nav-bar__app-part-icon" src="../blocks/nav-bar/__app-part-icon/clients.svg">
+                    <h3 class="nav-bar__app-part-name">Clients</h3>
+                    </a>
+                </section>
+
+                <!-- Team -->
+                <section class="nav-bar__app-part">
+                    <a href="#" class="nav-bar__app-part">
+                    <img class="nav-bar__app-part-icon" src="../blocks/nav-bar/__app-part-icon/team.svg">
+                    <h3 class="nav-bar__app-part-name">Team</h3>
+                    </a>
+                </section>
+
+                <!-- Calendar -->
+                <section class="nav-bar__app-part">
+                    <a href="#" class="nav-bar__app-part">
+                    <img class="nav-bar__app-part-icon" src="../blocks/nav-bar/__app-part-icon/calendar.svg">
+                    <h3 class="nav-bar__app-part-name">Calendar</h3>
+                    </a>
+                </section>
+
+                <!-- Reports -->
+                <section class="nav-bar__app-part">
+                    <a href="#" class="nav-bar__app-part">
+                    <img class="nav-bar__app-part-icon" src="../blocks/nav-bar/__app-part-icon/reports.svg">
+                    <h3 class="nav-bar__app-part-name">Reports</h3>
+                    </a>
+                </section>
+
+                <!-- Settings -->
+                <section class="nav-bar__app-part">
+                    <a href="#" class="nav-bar__app-part">
+                    <img class="nav-bar__app-part-icon" src="../blocks/nav-bar/__app-part-icon/settings.svg">
+                    <h3 class="nav-bar__app-part-name">Settings</h3>
+                    </a>
+                </section>
+
+            </section>
+
+        </nav>
+        <!-- end nav-bar -->
+       
+    </section>
+    <!-- end main -->
+    <script src="../blocks/nav-bar/nav-bar.js"></script>
+    <script src="../blocks/top-bar/__search-bar/top-bar__search-bar.js"></script>
+    <script src="template.js"></script>
+</body>
+</html>
