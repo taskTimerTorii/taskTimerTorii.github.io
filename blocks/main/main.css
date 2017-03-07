@@ -9,10 +9,3 @@
     background: radial-gradient(78%, #8e8078 0%,#d5bbac 62%,#ded1c5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-attachment: fixed;
 }
-.text-align_center {
-    text-align: center;
-    position: absolute;
-    width: calc(100vw - 64px);
-    top: 200px;
-    z-index: 0;
-}

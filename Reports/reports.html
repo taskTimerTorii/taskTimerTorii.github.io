@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Profile</title>
+    <title>Reports</title>
     <link rel="stylesheet" href="../reset/reset.css">
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="reports.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
@@ -102,26 +102,39 @@
 
         </nav>
         <!-- end nav-bar -->
-        
-        <!-- actual site content -->
-        <section class="profile">
-            <div class="text-align_center">
-                <img class="profile__photo" src="__photo/photo.png">
-                <h3 class="profile__user-name">Tomasz Kowalski</h3>
-                <h3 class="profile__user-mail">tomasz.kowalski@gmail.com</h3>
-            </div>
-
-            <section class="profile__buttons">
-                <div class="button-horizontal profile__button-horizontal">CHANGE PASSWORD</div>
-                <div class="button-horizontal profile__button-horizontal">LOG OUT</div>
+        <!--actual site content -->
+        <section class="reports">
+            <section class="report reports__report">
+                <h3 class="report__name">
+                    Report 1
+                </h3>
+                <img class="report__arrow-down" src="../blocks/report/__arrow-down/arrow-down.svg">
             </section>
+            
+            <section class="report reports__report">
+                <h3 class="report__name">
+                    Report 2
+                </h3>
+                <img class="report__arrow-down" src="../blocks/report/__arrow-down/arrow-down.svg">
+            </section>
+            
+            <section class="report reports__report">
+                <h3 class="report__name">
+                    Report 3
+                </h3>
+                <img class="report__arrow-down" src="../blocks/report/__arrow-down/arrow-down.svg">
+            </section>
+            
+            <div class="button-plus reports__button-plus">
+                <img class="button-plus__plus-icon" src="../blocks/button-plus/__plus-icon/plus-icon.svg"> 
+            </div>
+            
         </section>
         <!-- end actual site content -->
-        
     </section>
     <!-- end main -->
     <script src="../blocks/nav-bar/nav-bar.js"></script>
     <script src="../blocks/top-bar/__search-bar/top-bar__search-bar.js"></script>
-    <script src="profile.js"></script>
+    <script src="reports.js"></script>
 </body>
 </html>

@@ -1,0 +1,6 @@
+.report__arrow-down {
+    position: absolute;
+    right: 12px;
+    bottom: 40px;
+    transition: 0.5s;
+}
