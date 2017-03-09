@@ -1,0 +1,18 @@
+@import url("__top-bar/template__top-bar.css");
+@import url("__main/template__main.css");
+@import url("__nav-bar/template__nav-bar.css");
+@import url("../blocks/task/task.css");
+
+html {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.tasks {
+    position: absolute;
+    top: 115px;
+    transition: 0.5s;
+}
+.tasks_dark {
+    filter: brightness(70%) blur(8px);
+    opacity: 0.05;
+}
