@@ -1,0 +1,16 @@
+@import url("../reset/reset.css");
+@import url("__top-bar/template__top-bar.css");
+@import url("__main/template__main.css");
+@import url("__nav-bar/template__nav-bar.css");
+@import url("__button-plus/reports__button-plus.css");
+@import url("../blocks/report/report.css");
+
+.reports {
+    position: absolute;
+    top: 115px;
+    transition: 0.5s;
+}
+.reports_dark {
+    filter: brightness(70%) blur(8px);
+    opacity: 0.05;
+}

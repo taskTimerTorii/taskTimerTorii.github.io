@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tasks</title>
+    <title>Reports</title>
     <link rel="stylesheet" href="../reset/reset.css">
-    <link rel="stylesheet" href="tasks.css">
+    <link rel="stylesheet" href="reports.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +15,7 @@
         <img class="top-bar__hamburger" src="../blocks/top-bar/__hamburger/hamburger.svg">
         <img class="top-bar__cross top-bar__cross_hidden" src="../blocks/top-bar/__hamburger/cross.svg">
         <h1 class="top-bar__title">
-        Tasks
+        Reports
         </h1>
         <input class="top-bar__search-bar top-bar__search-bar_hidden" type="text">
         <img class="top-bar__search" src="../blocks/top-bar/__search/search.svg">
@@ -108,77 +108,32 @@
 
         </nav>
         <!-- end nav-bar -->
-        
         <!--actual site content -->
-        <section class="tasks">
-           
-            <section class="task tasks_task">
-                <div class="flex-wrapper">
-                    <div class="task__check-box">
-                        <img class="task__check-box-icon task__check-box-icon_hidden"
-                             src="../blocks/task/__check-box/task__check-box-icon.svg">
-                    </div>
-                    <h3 class="task__task-name">Task Name</h3>
-                    <div class="task__play-pause">
-                        <img class="task__play task__play_visible"
-                             src="../blocks/task/__play-pause/play.svg">
-                        <img class="task__pause task__pause_hidden"
-                             src="../blocks/task/__play-pause/pause.svg">
-                    </div>
-                    <p class="task__task-time">03:25</p>
-                </div>
+        <section class="reports">
+            <section class="report reports__report">
+                <h3 class="report__name">
+                    Report 1
+                </h3>
+                <img class="report__arrow-down" src="../blocks/report/__arrow-down/arrow-down.svg">
             </section>
-                         
-            <section class="task tasks_task">
-                <div class="flex-wrapper">
-                    <div class="task__check-box">
-                        <img class="task__check-box-icon task__check-box-icon_hidden"
-                             src="../blocks/task/__check-box/task__check-box-icon.svg">
-                    </div>
-                    <h3 class="task__task-name">Task Name</h3>
-                    <div class="task__play-pause">
-                        <img class="task__play task__play_visible"
-                             src="../blocks/task/__play-pause/play.svg">
-                        <img class="task__pause task__pause_hidden"
-                             src="../blocks/task/__play-pause/pause.svg">
-                    </div>
-                    <p class="task__task-time">03:25</p>
-                </div>
+            
+            <section class="report reports__report">
+                <h3 class="report__name">
+                    Report 2
+                </h3>
+                <img class="report__arrow-down" src="../blocks/report/__arrow-down/arrow-down.svg">
             </section>
-                       
-            <section class="task tasks_task">
-                <div class="flex-wrapper">
-                    <div class="task__check-box">
-                        <img class="task__check-box-icon task__check-box-icon_hidden"
-                             src="../blocks/task/__check-box/task__check-box-icon.svg">
-                    </div>
-                    <h3 class="task__task-name">Task Name</h3>
-                    <div class="task__play-pause">
-                        <img class="task__play task__play_visible"
-                             src="../blocks/task/__play-pause/play.svg">
-                        <img class="task__pause task__pause_hidden"
-                             src="../blocks/task/__play-pause/pause.svg">
-                    </div>
-                    <p class="task__task-time">03:25</p>
-                </div>
+            
+            <section class="report reports__report">
+                <h3 class="report__name">
+                    Report 3
+                </h3>
+                <img class="report__arrow-down" src="../blocks/report/__arrow-down/arrow-down.svg">
             </section>
-                       
-            <section class="task tasks_task">
-                <div class="flex-wrapper">
-                    <div class="task__check-box">
-                        <img class="task__check-box-icon task__check-box-icon_hidden"
-                             src="../blocks/task/__check-box/task__check-box-icon.svg">
-                    </div>
-                    <h3 class="task__task-name">Task Name</h3>
-                    <div class="task__play-pause">
-                        <img class="task__play task__play_visible"
-                             src="../blocks/task/__play-pause/play.svg">
-                        <img class="task__pause task__pause_hidden"
-                             src="../blocks/task/__play-pause/pause.svg">
-                    </div>
-                    <p class="task__task-time">03:25</p>
-                </div>
-            </section>
+            
+            <div class="button-plus reports__button-plus">
+                <img class="button-plus__plus-icon" src="../blocks/button-plus/__plus-icon/plus-icon.svg"> 
+            </div>
             
         </section>
         <!-- end actual site content -->
@@ -186,7 +141,6 @@
     <!-- end main -->
     <script src="../blocks/nav-bar/nav-bar.js"></script>
     <script src="../blocks/top-bar/__search-bar/top-bar__search-bar.js"></script>
-    <script src="tasks.js"></script>
-    <script src="../blocks/task/task.js"></script>
+    <script src="reports.js"></script>
 </body>
 </html>

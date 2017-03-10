@@ -1,0 +1,6 @@
+@import url("../../blocks/top-bar/top-bar.css");
+.template__top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+}

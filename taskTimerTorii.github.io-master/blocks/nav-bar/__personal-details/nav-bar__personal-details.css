@@ -1,0 +1,6 @@
+.nav-bar__personal-details {
+    height: 310px;
+    padding: 40px 32px 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.35);
+}

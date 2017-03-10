@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tasks</title>
+    <title>Calendar</title>
     <link rel="stylesheet" href="../reset/reset.css">
-    <link rel="stylesheet" href="tasks.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" href="calendar.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +16,7 @@
         <img class="top-bar__hamburger" src="../blocks/top-bar/__hamburger/hamburger.svg">
         <img class="top-bar__cross top-bar__cross_hidden" src="../blocks/top-bar/__hamburger/cross.svg">
         <h1 class="top-bar__title">
-        Tasks
+        Profile
         </h1>
         <input class="top-bar__search-bar top-bar__search-bar_hidden" type="text">
         <img class="top-bar__search" src="../blocks/top-bar/__search/search.svg">
@@ -109,84 +110,60 @@
         </nav>
         <!-- end nav-bar -->
         
-        <!--actual site content -->
-        <section class="tasks">
-           
-            <section class="task tasks_task">
-                <div class="flex-wrapper">
-                    <div class="task__check-box">
-                        <img class="task__check-box-icon task__check-box-icon_hidden"
-                             src="../blocks/task/__check-box/task__check-box-icon.svg">
-                    </div>
-                    <h3 class="task__task-name">Task Name</h3>
-                    <div class="task__play-pause">
-                        <img class="task__play task__play_visible"
-                             src="../blocks/task/__play-pause/play.svg">
-                        <img class="task__pause task__pause_hidden"
-                             src="../blocks/task/__play-pause/pause.svg">
-                    </div>
-                    <p class="task__task-time">03:25</p>
-                </div>
-            </section>
-                         
-            <section class="task tasks_task">
-                <div class="flex-wrapper">
-                    <div class="task__check-box">
-                        <img class="task__check-box-icon task__check-box-icon_hidden"
-                             src="../blocks/task/__check-box/task__check-box-icon.svg">
-                    </div>
-                    <h3 class="task__task-name">Task Name</h3>
-                    <div class="task__play-pause">
-                        <img class="task__play task__play_visible"
-                             src="../blocks/task/__play-pause/play.svg">
-                        <img class="task__pause task__pause_hidden"
-                             src="../blocks/task/__play-pause/pause.svg">
-                    </div>
-                    <p class="task__task-time">03:25</p>
-                </div>
-            </section>
-                       
-            <section class="task tasks_task">
-                <div class="flex-wrapper">
-                    <div class="task__check-box">
-                        <img class="task__check-box-icon task__check-box-icon_hidden"
-                             src="../blocks/task/__check-box/task__check-box-icon.svg">
-                    </div>
-                    <h3 class="task__task-name">Task Name</h3>
-                    <div class="task__play-pause">
-                        <img class="task__play task__play_visible"
-                             src="../blocks/task/__play-pause/play.svg">
-                        <img class="task__pause task__pause_hidden"
-                             src="../blocks/task/__play-pause/pause.svg">
-                    </div>
-                    <p class="task__task-time">03:25</p>
-                </div>
-            </section>
-                       
-            <section class="task tasks_task">
-                <div class="flex-wrapper">
-                    <div class="task__check-box">
-                        <img class="task__check-box-icon task__check-box-icon_hidden"
-                             src="../blocks/task/__check-box/task__check-box-icon.svg">
-                    </div>
-                    <h3 class="task__task-name">Task Name</h3>
-                    <div class="task__play-pause">
-                        <img class="task__play task__play_visible"
-                             src="../blocks/task/__play-pause/play.svg">
-                        <img class="task__pause task__pause_hidden"
-                             src="../blocks/task/__play-pause/pause.svg">
-                    </div>
-                    <p class="task__task-time">03:25</p>
-                </div>
-            </section>
-            
-        </section>
+        <!-- actual site content -->
+        <div class="main-container">
+            <div class="opakowanie">
+              <div class="container_calendar">
+                  <div class="month_arrow_left"></div>
+                  <div class="month item">December 2016</div>
+                  <div class="month_arrow_right"></div>
+                  <div class="day item day1">M</div>
+                  <div class="day item day2">T</div>
+                  <div class="day item day3">W</div>
+                  <div class="day item day4">T</div>
+                  <div class="day item day5">F</div>
+                  <div class="day item day6">S</div>
+                  <div class="day item day7">S</div>
+                  <div class="item item1">1</div>
+                  <div class="item item2">2</div>
+                  <div class="item item3">3</div>
+                  <div class="item item4">4</div>
+                  <div class="item item5">5</div>
+                  <div class="item item6">6</div>
+                  <div class="item item7">7</div>
+                  <div class="item item8">8</div>
+                  <div class="item item9">9</div>
+                  <div class="item item10">10</div>
+                  <div class="item item11">11</div>
+                  <div class="item item12">12</div>
+                  <div class="item item13">13</div>
+                  <div class="item item14">14</div>
+                  <div class="item item15">15</div>
+                  <div class="item item16">16</div>
+                  <div class="item item17">17</div>
+                  <div class="item item18 current">18</div>
+                  <div class="item item19">19</div>
+                  <div class="item item20">20</div>
+                  <div class="item item21">21</div>
+                  <div class="item item22">22</div>
+                  <div class="item item23">23</div>
+                  <div class="item item24">24</div>
+                  <div class="item item25">25</div>
+                  <div class="item item26">26</div>
+                  <div class="item item27">27</div>
+                  <div class="item item28">28</div>
+                  <div class="item item29">29</div>
+                  <div class="item item30">30</div>
+                  <div class="item item31">31</div>
+              </div>
+            </div>
+        </div>
         <!-- end actual site content -->
+        
     </section>
     <!-- end main -->
     <script src="../blocks/nav-bar/nav-bar.js"></script>
     <script src="../blocks/top-bar/__search-bar/top-bar__search-bar.js"></script>
-    <script src="tasks.js"></script>
-    <script src="../blocks/task/task.js"></script>
+    <script src="calendar.js"></script>
 </body>
 </html>

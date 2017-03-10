@@ -1,0 +1,15 @@
+@import url("../__app-part-icon/nav-bar__app-part-icon.css");
+@import url("../__app-part-name/nav-bar__app-part-name.css");
+
+.nav-bar__app-part {
+    height: 120px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.nav-bar__app-part-name{
+    transition: 0.5s;
+}
+
+.nav-bar__app-part:active .nav-bar__app-part-name{
+}

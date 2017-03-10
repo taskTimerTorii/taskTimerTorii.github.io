@@ -1,0 +1,77 @@
+@import url("__icon/button-horizontal__icon.css");
+
+.button-horizontal {
+    position: relative;
+    text-align: center;
+    line-height: 128px;
+    height: 128px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    margin-top: 22px;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: white;
+    z-index: 10;
+}
+
+.button-top1 {
+    position: absolute;
+    bottom: 528px;
+    height: 128px;
+    width: calc(100vw - 64px);
+    border-radius: 5px;
+    z-index: 0;
+    background-image: url("button_background.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    filter: brightness(60%) blur(1.5px);
+}
+
+.button-top2 {
+    position: absolute;
+    bottom: 378px;
+    height: 128px;
+    width: calc(100vw - 64px);
+    border-radius: 5px;
+    z-index: 0;
+    background-image: url("button_background.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% -150px;
+    filter: brightness(60%) blur(1.5px);
+}
+
+.button-top3 {
+    position: absolute;
+    bottom: 228px;
+    height: 128px;
+    width: calc(100vw - 64px);
+    border-radius: 5px;
+    z-index: 0;
+    background-image: url("button_background.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% -300px;
+    filter: brightness(60%) blur(1.5px);
+}
+
+.button-top4 {
+    position: absolute;
+    bottom: 0px;
+    height: 128px;
+    width: calc(100vw - 64px);
+    border-radius: 5px;
+    z-index: 0;
+    background-image: url("button_background.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% -500px;
+    filter: brightness(60%) blur(1.5px);
+}
+
+.button-horizontal__icon {
+    position: absolute;
+    left: 20%;
+    top: 34px;
+    height: 60px;
+    opacity: 0.65;
+}

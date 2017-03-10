@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tasks</title>
+    <title>Profile</title>
     <link rel="stylesheet" href="../reset/reset.css">
-    <link rel="stylesheet" href="tasks.css">
+    <link rel="stylesheet" href="profile.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +15,7 @@
         <img class="top-bar__hamburger" src="../blocks/top-bar/__hamburger/hamburger.svg">
         <img class="top-bar__cross top-bar__cross_hidden" src="../blocks/top-bar/__hamburger/cross.svg">
         <h1 class="top-bar__title">
-        Tasks
+        Profile
         </h1>
         <input class="top-bar__search-bar top-bar__search-bar_hidden" type="text">
         <img class="top-bar__search" src="../blocks/top-bar/__search/search.svg">
@@ -109,84 +109,25 @@
         </nav>
         <!-- end nav-bar -->
         
-        <!--actual site content -->
-        <section class="tasks">
-           
-            <section class="task tasks_task">
-                <div class="flex-wrapper">
-                    <div class="task__check-box">
-                        <img class="task__check-box-icon task__check-box-icon_hidden"
-                             src="../blocks/task/__check-box/task__check-box-icon.svg">
-                    </div>
-                    <h3 class="task__task-name">Task Name</h3>
-                    <div class="task__play-pause">
-                        <img class="task__play task__play_visible"
-                             src="../blocks/task/__play-pause/play.svg">
-                        <img class="task__pause task__pause_hidden"
-                             src="../blocks/task/__play-pause/pause.svg">
-                    </div>
-                    <p class="task__task-time">03:25</p>
-                </div>
+        <!-- actual site content -->
+        <section class="profile">
+            <div class="text-align_center">
+                <img class="profile__photo" src="__photo/photo.png">
+                <h3 class="profile__user-name">Tomasz Kowalski</h3>
+                <h3 class="profile__user-mail">tomasz.kowalski@gmail.com</h3>
+            </div>
+
+            <section class="profile__buttons">
+                <div class="button-horizontal profile__button-horizontal">CHANGE PASSWORD</div>
+                <div class="button-horizontal profile__button-horizontal">LOG OUT</div>
             </section>
-                         
-            <section class="task tasks_task">
-                <div class="flex-wrapper">
-                    <div class="task__check-box">
-                        <img class="task__check-box-icon task__check-box-icon_hidden"
-                             src="../blocks/task/__check-box/task__check-box-icon.svg">
-                    </div>
-                    <h3 class="task__task-name">Task Name</h3>
-                    <div class="task__play-pause">
-                        <img class="task__play task__play_visible"
-                             src="../blocks/task/__play-pause/play.svg">
-                        <img class="task__pause task__pause_hidden"
-                             src="../blocks/task/__play-pause/pause.svg">
-                    </div>
-                    <p class="task__task-time">03:25</p>
-                </div>
-            </section>
-                       
-            <section class="task tasks_task">
-                <div class="flex-wrapper">
-                    <div class="task__check-box">
-                        <img class="task__check-box-icon task__check-box-icon_hidden"
-                             src="../blocks/task/__check-box/task__check-box-icon.svg">
-                    </div>
-                    <h3 class="task__task-name">Task Name</h3>
-                    <div class="task__play-pause">
-                        <img class="task__play task__play_visible"
-                             src="../blocks/task/__play-pause/play.svg">
-                        <img class="task__pause task__pause_hidden"
-                             src="../blocks/task/__play-pause/pause.svg">
-                    </div>
-                    <p class="task__task-time">03:25</p>
-                </div>
-            </section>
-                       
-            <section class="task tasks_task">
-                <div class="flex-wrapper">
-                    <div class="task__check-box">
-                        <img class="task__check-box-icon task__check-box-icon_hidden"
-                             src="../blocks/task/__check-box/task__check-box-icon.svg">
-                    </div>
-                    <h3 class="task__task-name">Task Name</h3>
-                    <div class="task__play-pause">
-                        <img class="task__play task__play_visible"
-                             src="../blocks/task/__play-pause/play.svg">
-                        <img class="task__pause task__pause_hidden"
-                             src="../blocks/task/__play-pause/pause.svg">
-                    </div>
-                    <p class="task__task-time">03:25</p>
-                </div>
-            </section>
-            
         </section>
         <!-- end actual site content -->
+        
     </section>
     <!-- end main -->
     <script src="../blocks/nav-bar/nav-bar.js"></script>
     <script src="../blocks/top-bar/__search-bar/top-bar__search-bar.js"></script>
-    <script src="tasks.js"></script>
-    <script src="../blocks/task/task.js"></script>
+    <script src="profile.js"></script>
 </body>
 </html>

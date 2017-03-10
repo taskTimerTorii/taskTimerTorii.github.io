@@ -1,7 +1,6 @@
 @import url("__task-name/task__task-name.css");
 @import url("__check-box/task__check-box.css");
 @import url("__play-pause/task__play-pause.css");
-@import url("__task-time/task__task-time.css");
 
 .task {
     position: relative;
@@ -13,7 +12,7 @@
 }
 
 .task_open {
-    height: 220px;
+    height: 400px;
 }
 
 .flex-wrapper {

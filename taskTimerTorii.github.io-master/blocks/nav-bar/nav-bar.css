@@ -1,0 +1,18 @@
+@import url("__personal-details/nav-bar__personal-details.css");
+@import url("__app-parts/nav-bar__app-parts.css");
+@import url("__photo/nav-bar__photo.css");
+@import url("__task-name/nav-bar__task-name.css");
+@import url("__task-time/nav-bar__task-time.css");
+@import url("__user-mail/nav-bar__user-mail.css");
+@import url("__user-name/nav-bar__user-name.css");
+@import url("__app-part/nav-bar__app-part.css");
+@import url("../nav-bar/_on/nav-bar_on.css");
+@import url("../nav-bar/_off/nav-bar_off.css");
+@import url("__play-pause/nav-bar__play-pause.css");
+
+.nav-bar {
+    position: relative;
+    width: 85%;
+    transition: 0.35s;
+    z-index: 10;
+}

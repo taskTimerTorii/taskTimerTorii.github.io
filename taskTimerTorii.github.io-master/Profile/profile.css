@@ -1,0 +1,27 @@
+@import url("../reset/reset.css");
+@import url("__top-bar/template__top-bar.css");
+@import url("__main/template__main.css");
+@import url("__nav-bar/template__nav-bar.css");
+@import url("__photo/profile__photo.css");
+@import url("__user-name/profile__user-name.css");
+@import url("__user-mail/profile__user-mail.css");
+@import url("__buttons/profile__buttons.css");
+@import url("__button-horizontal/profile__button-horizontal.css");
+
+html {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.profile {
+    text-align: center;
+    position: fixed;
+    width: calc(100vw - 64px);
+    top: 200px;
+    z-index: 0;
+    transition: 0.5s;
+}
+
+.profile_dark {
+    filter: brightness(70%) blur(8px);
+    opacity: 0.05;
+}

@@ -21,13 +21,9 @@
                 event.target.classList.toggle('task__pause_hidden');
                 event.target.previousElementSibling.classList.toggle('task__play_hidden');
                 event.target.previousElementSibling.classList.toggle('task__play_visible');
-                console.log(event.target.parentElement.parentElement.parentElement);
-                event.target.parentElement.parentElement.parentElement.classList.toggle('task_open');
-                event.target.parentElement.parentElement.lastChild.previousSibling.classList.toggle('task__task-time_visible');
             }
         });
     }
-    
         
         
 }());

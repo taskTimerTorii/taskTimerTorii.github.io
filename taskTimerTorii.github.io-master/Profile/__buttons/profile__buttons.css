@@ -1,0 +1,5 @@
+.profile__buttons {
+    position: fixed;
+    bottom: 40px;
+    width: calc(100vw - 64px);
+}
