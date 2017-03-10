@@ -75,3 +75,21 @@
     height: 60px;
     opacity: 0.65;
 }
+
+@media (min-width:600px) {
+    .button-top1 {
+        background-size: 100%;
+    }
+    
+    .button-top2 {
+        background-size: 100%;
+    }
+    
+    .button-top3 {
+        background-size: 100%;
+    }
+    
+    .button-top4 {
+        background-size: 100%;
+    }
+}
