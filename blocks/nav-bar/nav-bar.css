@@ -8,6 +8,7 @@
 @import url("__app-part/nav-bar__app-part.css");
 @import url("../nav-bar/_on/nav-bar_on.css");
 @import url("../nav-bar/_off/nav-bar_off.css");
+@import url("__play-pause/nav-bar__play-pause.css");
 
 .nav-bar {
     position: relative;

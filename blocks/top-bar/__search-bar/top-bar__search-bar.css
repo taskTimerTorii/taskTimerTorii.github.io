@@ -19,5 +19,6 @@
 }
 
 .top-bar__search-bar:focus {
-    outline: 4px solid #1de9b6;
+    border: 4px solid #1de9b6;
+    outline: none;
 }
