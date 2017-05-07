@@ -1,0 +1,19 @@
+@import url("__name/project__name.css");
+@import url("__arrow-down/project__arrow-down.css");
+@import url("__arrow-up/project__arrow-up.css");
+
+html {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.project {
+    position: relative;
+    width: calc(100vw - 64px);
+    height: 150px;
+    border-bottom: 1px solid black;
+    line-height: 150px;
+    transition: 0.3s;
+}
+
+.project_open {
+    height: 400px;
+}
