@@ -1,0 +1,35 @@
+.project__tasks {
+    position: relative;
+    margin-left: 12px;
+    top: -30px;
+    transition: 0.4s;
+}
+.project__tasks_hidden{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.project__task-name {
+    font-size: 2.4rem;
+    font-style: Roboto;
+    line-height: 200%;
+}
+
+.project__task-new {
+    position: relative;
+    top: -30px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 80%;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    transition: 0.3s;
+    outline-color: white;
+}
+
+.project__task-new:focus {
+    outline-color: #1de9b6;
+    background-color: rgba(255, 255, 255, 0.15);
+}

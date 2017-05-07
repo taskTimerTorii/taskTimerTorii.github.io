@@ -3,11 +3,24 @@
     var play = document.getElementsByClassName('task__play');
     var pause = document.getElementsByClassName('task__pause');
     var playPause =document.getElementsByClassName('task__play-pause');
+    var archive = document.getElementsByClassName('archive')[0];
+    var toCheck = 0;
     
     for (var i = 0, max = checkBox.length; i < max; i++){
         checkBox[i].addEventListener('click', function(event){
             event.target.classList.toggle('task__check-box-icon_visible');
             console.log('clicknalem');
+            for(var j = 0, max = checkBox.length; j < max; j++){
+                if(checkBox[j].classList.contains('task__check-box-icon_visible')) {
+                    toCheck += 1;
+                }
+            }
+            if(!toCheck) {
+                    archive.classList.add('archive_hidden');
+                } else {
+                    archive.classList.remove('archive_hidden');
+                }
+            toCheck = 0;
         });
     }
     
@@ -28,6 +41,11 @@
         });
     }
     
-        
+    archive.addEventListener('click', function(event){
+        var selected = document.getElementsByClassName('task__check-box-icon_visible');
+        for(var k=0; k < selected.length; k++){
+            selected[k].parentElement.parentElement.parentElement.style.display='none';
+        }
+    });
         
 }());

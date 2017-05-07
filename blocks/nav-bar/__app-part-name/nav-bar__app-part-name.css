@@ -5,3 +5,7 @@
     font-size: 3.2rem;
     color: rgba(0, 0, 0, 0.85);
 }
+
+.current-bookmark {
+    color: #10BB90;
+}

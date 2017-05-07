@@ -21,3 +21,26 @@
     flex-flow: row wrap;
     align-items: center;
 }
+
+.archive {
+    position: fixed;
+    bottom: 100px;
+    left: 82px;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 140px;
+    width: calc(100% - 164px);
+    font-size: 3.2rem;
+    text-align: center;
+    line-height: 140px;
+    transition: 0.3s;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.4);
+}
+
+.noHeight {
+    height = 0px;
+}
+
+.archive_hidden {
+    opacity: 0;
+}

@@ -1,6 +1,7 @@
 @import url("__name/project__name.css");
 @import url("__arrow-down/project__arrow-down.css");
 @import url("__arrow-up/project__arrow-up.css");
+@import url("__task/project__task.css");
 
 html {
     font-family: Roboto, Arial, Helvetica, sans-serif;

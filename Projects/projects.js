@@ -7,6 +7,7 @@
         arrows[i].addEventListener('click', function(event){
             event.target.parentNode.classList.toggle('project_open');
             event.target.classList.toggle('project__arrow-up');
+            event.target.previousElementSibling.classList.toggle('project__tasks_hidden');
         });
     }
     hamburger.addEventListener('click', function() {
